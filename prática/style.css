@@ -9,6 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
+    zoom: 150%;
 }
 
 .cabecalho-inicio {
@@ -21,18 +23,46 @@
     gap: 8px;
 }
 
+.cabecalho-final {
+    display: flex;
+    gap: 10px;
+}
+
 .logotipo {
+    width: 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.logotipo-nome {
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.logotipo-nome:hover {
+    color: rgb(124, 121, 121);
 }
 
 .logotipo-icon {
     color: red;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .logotipo-icon:hover {
     color: rgba(255, 0, 0, 0.363);
+}
+
+.logotipo-video {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    transition: 0.2s;
+}
+
+.logotipo-video:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 42, 42);
 }
 
 .logotipo-pais {
@@ -50,6 +80,7 @@
     width: 300px;
     height: 32px;
     border-radius: 16px 0px 0px 16px;
+    font-size: medium;
 }
 
 .search-button {
@@ -57,6 +88,12 @@
     width: 50px;
     height: 32px;
     border-radius: 0px 16px 16px 0px;
+    transition: 0.2s;
+}
+
+.search-button:hover {
+    color: white;
+    background-color: rgb(53, 53, 53);
 }
 
 .microphone {
@@ -64,4 +101,10 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
+    transition: 0.2s;
+}
+
+.microphone:hover {
+    color: white;
+    background-color: rgb(39, 39, 39);
 }
