@@ -124,14 +124,12 @@ html {
 
 .principal {
     display: flex;
-    background-color: red;
     height: 90vh;
 }
 
 .principal-sidebar {
-    background-color: blue;
     width: 20vw;
-
+    padding: 8px;
     overflow-y: auto;
 }
 
@@ -148,4 +146,27 @@ html {
 .sidebar-inicio, .sidebar-centro, .sidebar-final {
     display: flex;
     flex-direction: column;
+    margin: 8px 0px;
+}
+
+.sidebar-button {
+    padding: 18px;
+    border-radius: 20px;
+}
+
+.sidebar-button:hover {
+    background-color: rgb(228, 227, 227);
+}
+
+.sidebar-button > i {
+    margin-right: 20px;
+}
+
+.sidebar-centro {
+    border-top: 1px solid rgb(194, 194, 194);
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.sidebar-centro-titulo {
+    padding: 16px;
 }
